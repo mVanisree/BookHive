@@ -12,14 +12,12 @@
     <header>
     <h1>BookHive</h1>
     <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./books.html">Books</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./cart.html">Cart</a><span id="cart">0</span></li>
-            <li><a href="./login.html">Login</a></li>
-        </ul>
+        <a href="./index.html">Home</a>
+            <a href="./books.html">Books</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./cart.html">Cart</a><span id="cart">0</span>
+            <a href="./login.html">Login</a>
     </nav>
     </header>
     </div>
@@ -27,16 +25,16 @@
     <main>
         <div class="half">
         <div class="book1">
-        <h1 class="mainheading">Welcome to BookHive</h1>
-        <p class="mainheading">Good Afternoon! Discover your next favorite book.</p>
-        <button class="browse"><a href="./books.html">Browse Books</a></button>
+        <h1 id="mainheading">Welcome to BookHive</h1>
+        <p class="subheading">Good Afternoon! Discover your next favorite book.</p>
+        <a href="./books.html" class="browse">Browse Books</a>
         </div>
 
-        <div class="feature">
+        
             <h2 class="heading">Featured Books</h2>
             <h3 class="sum">Hand-picked bestsellers loved by readers across India</h3>
-
-            <div class="AtomicHabit">
+            <div class="feature">
+                <div class="book-card">
                 <img src="https://images.pexels.com/photos/29280272/pexels-photo-29280272.jpeg" alt="Atomic Habits">
                 <h3 class="heading">Atomic Habits</h3>
                 <p class="sum">James Clear</p>
@@ -45,7 +43,7 @@
                 <button class="addtocart">Add To Cart </button>
             </div>
 
-            <div class="WingsofFire">
+            <div class="book-card">
                 <img src="https://m.media-amazon.com/images/I/71V46+-55yL._SY342_.jpg" alt="Atomic Habits">
                 <h3 class="heading">Wings of Fire</h3>
                 <p class="sum">A.P.J Abdul Kalam</p>
@@ -54,7 +52,7 @@
                 <button class="addtocart">Add To Cart </button>
             </div>
 
-            <div class="sapiens">
+            <div class="book-card">
                 <img src="https://images.pexels.com/photos/6543271/pexels-photo-6543271.jpeg" alt="Sapiens">
                 <h3 class="heading">Sapiens</h3>
                 <p class="sum">Yuval Noah Harari</p>
@@ -63,7 +61,7 @@
                 <button class="addtocart">Add To Cart </button>
             </div>
 
-            <div class="alchemist">
+            <div class="book-card">
                 <img src="https://images.pexels.com/photos/7945791/pexels-photo-7945791.jpeg" alt="Atomic Habits">
                 <h3 class="heading">The Alchemist</h3>
                 <p class="sum">Paulo Coelho</p>
@@ -71,11 +69,14 @@
                 <h3 class="sum">₹349</h3><del>₹499</del>
                 <button class="addtocart">Add To Cart </button>
             </div>
-        </div>
-
-        <div class="category">
+            </div>
+            
+        
             <h2 class="heading">Browse by Category</h2>
             <p class="sum">Find the perfect book in your favorite genre</p>
+
+        <div class="category">
+            
 
             <div class="cat">
                 <h2 class="heading">Fiction</h2>
@@ -102,51 +103,44 @@
                 <p class="sum">Past stories & civilizations</p>
             </div>
         </div>
+        </main>
 
+        <footer>
         <div class="quick">
-            <div>
+            <div class="links">
             <h3 class="lastheading">BookHive</h3>
             <p class="mainheading">India's favorite online bookstore. Curated selection of books from Indian and international authors.</p>
             </div>
 
-            <div>
+            <div class="links">
                 <h3 class="lastheading">Quick Links</h3>
-                <ul class="mainheading">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./books.html">All Bokks</a></li>
-                    <li><a href="./about.html">About Us</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
+                    <a href="./index.html">Home</a>
+                    <a href="./books.html">All Bokks</a>
+                    <a href="./about.html">About Us</a>
+                    <a href="./contact.html">Contact</a>
+                
             </div>
 
-            <div>
-                <h3 class="lastheading">Categories</h3>\
-                <ul class="mainheading">
-                    <li><a href="./books.html">Fiction</a></li>
-                    <li><a href="./books.html">Self-Help</a></li>
-                    <li><a href="./books.html">Business</a></li>
-                    <li><a href="./books.html">Biographies</a></li>
-                </ul>
+            <div class="links">
+                <h3 class="lastheading">Categories</h3>
+                    <a href="./books.html">Fiction</a>
+                    <a href="./books.html">Self-Help</a>
+                    <a href="./books.html">Business</a>
+                    <a href="./books.html">Biographies</a>
             </div>
 
-            <div class="socialmedia">
+            <div class="links">
                 <h3 class="lastheading">Connect With Us</h3>
-                <ul class="mainheading">
-                    <li><a href="./index.html">Facebook</a></li>
-                    <li><a href="./index.html">Instagram</a></li>
-                    <li><a href="./index.html">Twitter</a></li>
-                    <li><a href="./index.html">Linkedin</a></li>
-                </ul>
+                    <a href="./index.html">Facebook</a>
+                    <a href="./index.html">Instagram</a>
+                    <a href="./index.html">Twitter</a>
+                    <a href="./index.html">Linkedin</a>
             </div>
         </div>
         </div>
-    </main>
-
+    
     <hr>
-    <footer>
-       <p class="mainheading">&copy; 2026 BookHive. Built with love for book lovers in India.</p>
-    </footer>
-
-
+       <p class="copyright">&copy; 2026 BookHive. Built with love for book lovers in India.</p>
+</footer>
 </body>
 </html>
