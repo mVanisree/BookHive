@@ -26,55 +26,22 @@
         <div class="login">
             <h2 class="heading">Welcome Back!</h2>
             <p class="sum">Login to your BookHive account</p>
+            <div class="log">
             <label for="email">Email Address *</label>
-            <input type="email" required placeholder="you@example.com" id="email">
-            <label for="password">Password *</label>
-            <input type="password" name="" id="password">
-            <input type="radio" id="remember" > <label for="remember">Remember me</label>
-            <button class="loginb">Login</button>
-            <p class="heading"><a href="">Forgot password ?</a></p>
-            <p class="sum">Don't have an account? <a href="#signin">Sign up here</a></p>
-        </div>
-        </section>
-
-        <section id="signin">
-            <div class="createacc">
-                <h2 class="heading">Create Your Account</h2>
-                <p class="sum">Join thousands of book lovers on BookHive</p>
-                <label for="name">Full Name *</label>
-                <input type="text" required placeholder="Enter your full name">
-                <label for="email">Email Address *</label>
-                <input type="email" required placeholder="you@example.com">
-                <label for="phone">Phone Number *</label>
-                <input type="number" name="phone" id="phone" required placeholder="10-digit mobile number">
-                <label for="password">Password *</label>
-                <input type="password" required placeholder="At least 8 characters">
-                <p>Must be at least 8 characters</p>
-                <label for="pass2">Confirm Password</label>
-                <input type="password" required placeholder="Re-enter your password">
-                <p>City</p>
-                <select name="" id="">
-                    <option value="--Select your city--">--Select your city--</option>
-                    <option value="Benguluru">Benguluru</option>
-                    <option value="Mumbai">Mumbai</option>
-                    <option value="Delhi">Delhi</option>
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Chennai">Chennai</option>
-                    <option value="pune">Pune</option>
-                </select>
-                <p>I'm intersted in:</p>
-                <input type="radio"> <label for="">Fiction</label>
-                <input type="radio"> <label for="">Biography</label>
-                <input type="radio"> <label for="">Self-Help</label>
-                <input type="radio"> <label for="">Business</label>
-                <input type="radio"> <label for="">History</label>
-                <input type="radio"> <label for="">Children's</label>
-                <input type="radio"> <p>I agree to the Terms and Conditions *</p>
-                <input type="radio"> <p>Subscribe to weekly book recommendations</p>
-                <button class="createaccb">Create Account</button>
-                <p class="sum">Already have an account? <a href="#logins">Login here</a></p>
+            <input type="email" required placeholder="you@example.com" id="email" class="inputs">
             </div>
-
+            <div class="log">
+            <label for="password">Password *</label>
+            <input type="password" name="" id="password" placeholder="Enter your password" class="inputs">
+            </div>
+            <div class="rem">
+            <input type="checkbox" id="remember" > <label for="remember">Remember me</label>
+            </div>
+            <div class="log">
+            <button class="loginb">Login</button></div>
+            <p class="heading"><a href="">Forgot password ?</a></p>
+            <p class="sum">Don't have an account? <a href="./signup.html">Sign up here</a></p>
+        </div>
         </section>
     
          </main>
@@ -109,7 +76,6 @@
                     <a href="./index.html">Twitter</a>
                     <a href="./index.html">Linkedin</a>
             </div>
-        </div>
         </div>
     
     <hr>

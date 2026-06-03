@@ -10,7 +10,7 @@
 <body>
     <div class="navbar">
     <header>
-    <h1>📚 BookHive</h1>
+    <h1>BookHive</h1>
     <nav>
         <a href="./index.html">Home</a>
             <a href="./books.html">Books</a>
@@ -22,39 +22,54 @@
     </header>
     </div>
 
-    <main>
         <div class="half">
         <div class="book1">
-        <h2 class="mainheading">Get In Touch</h2>
-        <p class="mainheading">Have a question or feedback? We'd love to hear from you</p>
+        <h2 id="mainheading">Get In Touch</h2>
+        <p class="subheading">Have a question or feedback? We'd love to hear from you</p>
     </div>
 
+    <div class="holdcform">
         <div class="contactform">
         <h2 class="heading">Send us a Message</h2>
         <p class="sum">We typically reply within 24 hours</p>
-        <label for="name">Your Name *</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
 
+        <div class="detailsclass">
+        <div class="details">
+            <label for="name">Your Name *</label>
+        <input type="text" id="name" placeholder="Enter your name" required class="inputs">
+        </div>
+        
+        <div class="details">
         <label for="email">Email *</label>
-        <input type="email" id="name" placeholder="you@exapmle.com" required>
+        <input type="email" id="name" placeholder="you@exapmle.com" required class="inputs">
+        </div>
 
+        <div class="details">
         <label for="sub">Subject</label>
-        <select name="" id="">
+        <select name="" id="" class="inputs">
             <option value="General Inquiry">General Inquiry</option>
             <option value="Order Issue">Order Issue</option>
             <option value="Book Suggestion">Book Suggestion</option>
             <option value="Partnership">Partnership</option>
             <option value="Feedback">Feedback</option>
         </select>
+        </div>
+
+        <div class="details">
         <label for="msg">Your Message *</label>
-        <textarea name="message" id="msg" placeholder="Tell us what's on your mind..."></textarea>
+        <textarea name="message" id="msg" placeholder="Tell us what's on your mind..." class="inputs"></textarea>
+        </div>
+        </div>
 
         <button class="sendmsg">Send Message</button>
     </div>
-
-    <div>
+    </div>
+    <div class="reach">
+    <div class="reachus">
         <h2 class="heading">Other Ways to Reach Us</h2>
         <p>Email: <a href="mailto:hello@bookhive.in">hello@bookhive.in</a><br> Phone: <a href="tel:+91 80-1234-5678">+91 80-1234-5678 </a><br>Address: 123 MG Road, Bengaluru, Karnataka 560001 <br> Hours: Mon-Sat, 10:00 AM - 7:00 PM</p>
+    </div>
+    </div>
     </div>
     </main>
     <footer>

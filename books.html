@@ -25,15 +25,16 @@
     <main>
         <div class="half">
     <div class="book1">
-        <h2 class="mainheading">All Books</h2>
-        <p class="mainheading">Browse our complte collection</p>
+        <h2 id="mainheading">All Books</h2>
+        <p class="subheading">Browse our complte collection</p>
     </div>
 
-    <div class="feature">
     <div class="search">
         <input type="search" name="search" id="searchbar" placeholder="Search books or authors...">
-        <p class="bookstyle">Catefory:</p>
-        <select name="" id="">
+        <div class="bookstyle">
+            <div class="filter-group">
+        <label>Category:</label>
+        <select name="" id="" class="dropdown">
             <option value="All Categories">All Categories</option>
             <option value="Fiction">Fiction</option>
             <option value="Biography">Biography</option>
@@ -41,19 +42,24 @@
             <option value="Business">Business</option>
             <option value="History">History</option>
         </select>
-        <p class="bookstyle">Sort by:</p>
-        <select name="" id="">
+        </div>
+        <div class="filter-group">
+        <label>Sort by:</label>
+        <select name="" id="" class="dropdown">
             <option value="Default">Default</option>
             <option value="LH">Price: Low to High</option>
             <option value="HL">Price: High to Low</option>
             <option value="HR">Highest Rated</option>
             <option value="Name">Name (A-Z)</option>
         </select>
+        </div>
+        </div>
     </div>
     
         <p class="sum">Showing 12 books</p>
 
-        <div class="AtomicHabit">
+        <div class="feature">
+                <div class="book-card">
                 <img src="https://images.pexels.com/photos/29280272/pexels-photo-29280272.jpeg" alt="Atomic Habits">
                 <h3 class="heading">Atomic Habits</h3>
                 <p class="sum">James Clear</p>
@@ -62,7 +68,7 @@
                 <button class="addtocart">Add To Cart </button>
             </div>
 
-            <div class="WingsofFire">
+            <div class="book-card">
                 <img src="https://m.media-amazon.com/images/I/71V46+-55yL._SY342_.jpg" alt="Atomic Habits">
                 <h3 class="heading">Wings of Fire</h3>
                 <p class="sum">A.P.J Abdul Kalam</p>
@@ -71,7 +77,7 @@
                 <button class="addtocart">Add To Cart </button>
             </div>
 
-            <div class="sapiens">
+            <div class="book-card">
                 <img src="https://images.pexels.com/photos/6543271/pexels-photo-6543271.jpeg" alt="Sapiens">
                 <h3 class="heading">Sapiens</h3>
                 <p class="sum">Yuval Noah Harari</p>
@@ -80,15 +86,16 @@
                 <button class="addtocart">Add To Cart </button>
             </div>
 
-            <div class="alchemist">
+            <div class="book-card">
                 <img src="https://images.pexels.com/photos/7945791/pexels-photo-7945791.jpeg" alt="Atomic Habits">
                 <h3 class="heading">The Alchemist</h3>
                 <p class="sum">Paulo Coelho</p>
                 <p class="rate">⭐ 4.7 (5,012 reviews)</p>
                 <h3 class="sum">₹349</h3><del>₹499</del>
                 <button class="addtocart">Add To Cart </button>
-            </div>   
-    </div>
+            </div>
+            </div>
+        </div>s
     </main>
     <footer>
         <div class="quick">
@@ -121,7 +128,6 @@
                     <a href="./index.html">Twitter</a>
                     <a href="./index.html">Linkedin</a>
             </div>
-        </div>
         </div>
     
     <hr>
